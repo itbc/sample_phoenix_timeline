@@ -1,0 +1,1096 @@
+[info] Running ChirpWeb.Endpoint with cowboy 2.7.0 at 0.0.0.0:4000 (http)
+[info] Access ChirpWeb.Endpoint at http://localhost:4000
+[info] CONNECTED TO Phoenix.LiveView.Socket in 250µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "L187dQMqGT1DCEUwE3EmOjcqSx1UNA49lmuBFoTt4ywFyGm_EE8p-v7s", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=44.2ms decode=7.2ms queue=1.8ms idle=821.9ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+
+webpack is watching the files…
+
+[info] CONNECTED TO Phoenix.LiveView.Socket in 171µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "EBYLJiIHKAw9WjozGBsxfGAPcxYnICsCDFfTPXjkO3hrnAg32e6fvPjo", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.5ms idle=1563.3ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[debug] Live reload: priv/static/js/app.js
+[debug] Live reload: priv/static/js/app.js
+[debug] Live reload: priv/static/js/app.js
+[debug] Live reload: priv/static/js/app.js
+[debug] Live reload: priv/static/css/app.css
+[debug] Live reload: priv/static/css/app.css
+[debug] Live reload: priv/static/js/app.js
+[debug] Live reload: priv/static/js/app.js
+[debug] Live reload: priv/static/images/phoenix.png
+[debug] Live reload: priv/static/images/phoenix.png
+[debug] Live reload: priv/static/css/app.css
+[debug] Live reload: priv/static/css/app.css
+[debug] Live reload: priv/static/images/phoenix.png
+[debug] Live reload: priv/static/images/phoenix.png
+[debug] Live reload: priv/static/css/app.css
+[debug] Live reload: priv/static/css/app.css
+[debug] Live reload: priv/static/images/phoenix.png
+[debug] Live reload: priv/static/images/phoenix.png
+Hash: 4d8243486bbaa8eddd70
+Version: webpack 4.41.5
+Time: 2824ms
+Built at: 04/23/2020 4:30:40 PM
+                Asset       Size  Chunks                   Chunk Names
+       ../css/app.css     13 KiB     app  [emitted]        app
+   ../css/app.css.map   16.6 KiB     app  [emitted] [dev]  app
+       ../favicon.ico   1.23 KiB          [emitted]        
+../images/phoenix.png   13.6 KiB          [emitted]        
+        ../robots.txt  202 bytes          [emitted]        
+               app.js    139 KiB     app  [emitted]        app
+           app.js.map    267 KiB     app  [emitted] [dev]  app
+Entrypoint app = ../css/app.css app.js ../css/app.css.map app.js.map
+[0] multi ./js/app.js 28 bytes {app} [built]
+[../deps/phoenix/priv/static/phoenix.js] 35.6 KiB {app} [built]
+[../deps/phoenix_html/priv/static/phoenix_html.js] 2.21 KiB {app} [built]
+[../deps/phoenix_live_view/priv/static/phoenix_live_view.js] 81.7 KiB {app} [built]
+[./css/app.scss] 39 bytes {app} [built]
+[./js/app.js] 1.28 KiB {app} [built]
+    + 4 hidden modules
+Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!node_modules/sass-loader/dist/cjs.js!css/app.scss:
+    Entrypoint mini-css-extract-plugin = *
+    [./node_modules/css-loader/dist/cjs.js!./css/phoenix.css] 10.4 KiB {mini-css-extract-plugin} [built]
+    [./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./css/app.scss] 2.06 KiB {mini-css-extract-plugin} [built]
+        + 2 hidden modules
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=1.3ms idle=732.2ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 39ms
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=1.3ms queue=1.1ms idle=1188.5ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 5ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 185µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "C2Y0eHU_eR8PH0sMHW5mFS0CXkBODnEgHTzO0z4VxnyzwX-p_m--7LHn", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=1.6ms idle=1454.0ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] CONNECTED TO Phoenix.LiveView.Socket in 171µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "PggYKj8nLQYzWAIbNQ8ceR8zchkkI3cVjXuXMxoaA1PZCUJ6MY7iuS6x", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=1.4ms idle=1979.5ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Running ChirpWeb.Endpoint with cowboy 2.7.0 at 0.0.0.0:4000 (http)
+[info] Access ChirpWeb.Endpoint at http://localhost:4000
+
+webpack is watching the files…
+
+[info] CONNECTED TO Phoenix.LiveView.Socket in 249µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "C2Y0eHU_eR8PH0sMHW5mFS0CXkBODnEgHTzO0z4VxnyzwX-p_m--7LHn", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.6ms decode=8.1ms queue=1.6ms idle=1553.7ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=1.6ms idle=717.9ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 120ms
+[debug] Live reload: priv/static/js/app.js
+[debug] Live reload: priv/static/js/app.js
+[debug] Live reload: priv/static/css/app.css
+[debug] Live reload: priv/static/js/app.js
+[debug] Live reload: priv/static/images/phoenix.png
+[debug] Live reload: priv/static/css/app.css
+[debug] Live reload: priv/static/images/phoenix.png
+[debug] Live reload: priv/static/css/app.css
+[debug] Live reload: priv/static/images/phoenix.png
+Hash: 4d8243486bbaa8eddd70
+Version: webpack 4.41.5
+Time: 3216ms
+Built at: 04/23/2020 4:32:45 PM
+                Asset       Size  Chunks                   Chunk Names
+       ../css/app.css     13 KiB     app  [emitted]        app
+   ../css/app.css.map   16.6 KiB     app  [emitted] [dev]  app
+       ../favicon.ico   1.23 KiB          [emitted]        
+../images/phoenix.png   13.6 KiB          [emitted]        
+        ../robots.txt  202 bytes          [emitted]        
+               app.js    139 KiB     app  [emitted]        app
+           app.js.map    267 KiB     app  [emitted] [dev]  app
+Entrypoint app = ../css/app.css app.js ../css/app.css.map app.js.map
+[0] multi ./js/app.js 28 bytes {app} [built]
+[../deps/phoenix/priv/static/phoenix.js] 35.6 KiB {app} [built]
+[../deps/phoenix_html/priv/static/phoenix_html.js] 2.21 KiB {app} [built]
+[../deps/phoenix_live_view/priv/static/phoenix_live_view.js] 81.7 KiB {app} [built]
+[./css/app.scss] 39 bytes {app} [built]
+[./js/app.js] 1.28 KiB {app} [built]
+    + 4 hidden modules
+Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!node_modules/sass-loader/dist/cjs.js!css/app.scss:
+    Entrypoint mini-css-extract-plugin = *
+    [./node_modules/css-loader/dist/cjs.js!./css/phoenix.css] 10.4 KiB {mini-css-extract-plugin} [built]
+    [./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./css/app.scss] 2.06 KiB {mini-css-extract-plugin} [built]
+        + 2 hidden modules
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=1.3ms queue=1.3ms idle=725.7ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 5ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 237µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "Ax0BQBs9FRYoUGU7KSwRFyQ7Aic9AnQ_WMl2ibWqZ97z_vGXvQGWlr5R", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=1.5ms idle=265.0ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] CONNECTED TO Phoenix.LiveView.Socket in 176µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "O14fXi0aLyQnF0MeLmMHIzMFSypKLwooxlQih_bmPfqhDULFAj8G3m3f", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=1.6ms idle=96.9ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[debug] QUERY OK db=4.6ms queue=0.9ms idle=336.5ms
+INSERT INTO "posts" ("body","likes_count","reposts_count","username","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6) RETURNING "id" ["Hello, Elixir is beautiful!!!", 0, 0, "torifukukaiou", ~N[2020-04-23 13:33:05], ~N[2020-04-23 13:33:05]]
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 4ms
+[debug] QUERY OK source="posts" db=6.1ms idle=1792.4ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[debug] QUERY OK db=0.9ms queue=0.5ms idle=1187.6ms
+INSERT INTO "posts" ("body","likes_count","reposts_count","username","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6) RETURNING "id" ["不死鳥 = Elixir", 0, 0, "torifukukaiou", ~N[2020-04-23 13:33:16], ~N[2020-04-23 13:33:16]]
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 4ms
+[debug] QUERY OK source="posts" db=0.6ms idle=1782.1ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=1.5ms queue=1.3ms idle=1192.7ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 8ms
+[debug] QUERY OK source="posts" db=1.3ms queue=1.0ms idle=1034.5ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.5ms idle=1096.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.4ms idle=295.8ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.6ms idle=487.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=2.2ms idle=1895.9ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+[debug] QUERY OK source="posts" db=1.4ms idle=592.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+[debug] QUERY OK source="posts" db=1.4ms idle=663.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+1
+[debug] QUERY OK source="posts" db=1.0ms queue=0.7ms idle=1631.1ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+1
+[debug] QUERY OK source="posts" db=1.4ms idle=1819.4ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+1
+[debug] QUERY OK source="posts" db=1.6ms idle=1976.8ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+2
+[debug] QUERY OK source="posts" db=1.0ms idle=1689.6ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+2
+[debug] QUERY OK source="posts" db=1.1ms queue=0.1ms idle=1903.5ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+[debug] QUERY OK source="posts" db=0.4ms queue=0.4ms idle=1217.0ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 WHERE (p0."id" = $1) [2]
+[debug] QUERY OK db=0.9ms queue=0.9ms idle=215.7ms
+UPDATE "posts" SET "body" = $1, "updated_at" = $2 WHERE "id" = $3 ["不死鳥 = Phoenix", ~N[2020-04-23 13:42:19], 2]
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[debug] QUERY OK source="posts" db=1.0ms idle=722.7ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[debug] QUERY OK db=1.0ms queue=0.5ms idle=1800.9ms
+INSERT INTO "posts" ("body","likes_count","reposts_count","username","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6) RETURNING "id" ["不老不死の霊薬 = Elixir", 0, 0, "torifukukaiou", ~N[2020-04-23 13:42:37], ~N[2020-04-23 13:42:37]]
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[debug] QUERY OK source="posts" db=1.0ms idle=1406.5ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[debug] QUERY OK source="posts" db=1.3ms idle=1664.3ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.0ms idle=1845.5ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.3ms idle=1011.5ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.2ms idle=1180.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.1ms idle=1328.1ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.0ms idle=1483.5ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+3
+[debug] QUERY OK source="posts" db=1.3ms idle=1228.5ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+3
+[debug] QUERY OK source="posts" db=1.5ms idle=431.9ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+3
+[debug] QUERY OK source="posts" db=1.0ms idle=600.0ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+3
+[debug] QUERY OK source="posts" db=1.5ms idle=779.6ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.1ms idle=728.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.1ms idle=1943.8ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=0.9ms idle=463.2ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.0ms idle=676.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.0ms idle=888.2ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+3
+[debug] QUERY OK source="posts" db=1.0ms idle=261.0ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+3
+[debug] QUERY OK source="posts" db=1.0ms idle=766.2ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+3
+[debug] QUERY OK source="posts" db=1.2ms idle=981.9ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+3
+[debug] QUERY OK source="posts" db=1.5ms idle=1542.9ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=0.4ms queue=1.5ms idle=1680.8ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 6ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 173µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "UisxFmkBJBo0GyE0ZDQpTHwLFyMSKU1y5jXNDYvlFUmV3Yf47mCOCH9A", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.5ms idle=1615.8ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[debug] QUERY OK source="posts" db=0.9ms idle=1477.2ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 WHERE (p0."id" = $1) [3]
+3
+[debug] QUERY OK source="posts" db=1.2ms idle=1705.0ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+3
+[debug] QUERY OK source="posts" db=1.9ms idle=1559.3ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+3
+[debug] QUERY OK source="posts" db=1.5ms idle=1651.1ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.2ms idle=1467.8ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+[debug] QUERY OK source="posts" db=1.0ms idle=1601.9ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 WHERE (p0."id" = $1) [2]
+[debug] QUERY OK db=1.3ms idle=1282.7ms
+INSERT INTO "posts" ("body","likes_count","reposts_count","username","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6) RETURNING "id" ["foo bar", 0, 0, "torifukukaiou", ~N[2020-04-23 13:52:57], ~N[2020-04-23 13:52:57]]
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[debug] QUERY OK source="posts" db=0.5ms idle=1927.8ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[debug] QUERY OK source="posts" db=1.3ms queue=0.1ms idle=1668.1ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.5ms queue=0.1ms idle=1382.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=0.7ms idle=1291.3ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 WHERE (p0."id" = $1) [4]
+[debug] QUERY OK db=0.9ms queue=0.6ms idle=1459.3ms
+UPDATE "posts" SET "body" = $1, "updated_at" = $2 WHERE "id" = $3 ["foo bar fizz buzz", ~N[2020-04-23 13:53:10], 4]
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[debug] QUERY OK source="posts" db=0.5ms idle=648.6ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] GET /ads.txt
+[info] GET /
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 3ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 168µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "MiEVNzVuDgYoGxgpOykeNzUYNwhgKCJdfqxEG1LaZrJhMsHxgrrx1Xc0", "vsn" => "2.0.0"}
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=0.4ms queue=1.4ms idle=1686.8ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 8ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 256µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "Aw8dQSpqC1QZBxB2BA4zJAIjLjY1JiMDW_p3X5I3knB7rTekPIkFdVbn", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.5ms idle=1480.8ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[debug] QUERY OK source="posts" db=1.1ms idle=1232.1ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.1ms idle=1433.2ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.0ms idle=1602.3ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.0ms idle=1770.8ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[info] GET /dashboard
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 302 in 19ms
+[info] GET /dashboard/nonode%40nohost
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 16ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 204µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "PAldQAUQERQgLhl2QB0yJmQMKgITGSUjhY02wOSsRGK76Gdi6forBidN", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode%40nohost/ets
+[debug] Processing with Phoenix.LiveView.Plug.ets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 5ms
+[info] GET /dashboard/nonode%40nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 11ms
+[info] GET /dashboard/nonode%40nohost/ports
+[debug] Processing with Phoenix.LiveView.Plug.ports/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 6ms
+[info] GET /dashboard/nonode%40nohost/processes
+[debug] Processing with Phoenix.LiveView.Plug.processes/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 6ms
+[info] GET /dashboard/nonode%40nohost/request_logger
+[debug] Processing with Phoenix.LiveView.Plug.request_logger/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 8ms
+[info] GET /dashboard/nonode%40nohost/request_logger/EJmK
+[debug] Processing with Phoenix.LiveView.Plug.request_logger/2
+  Parameters: %{"node" => "nonode@nohost", "stream" => "EJmK"}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[info] GET /dashboard/nonode%40nohost/metrics
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 6ms
+[info] GET /dashboard/nonode%40nohost/metrics/chirp
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "chirp", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 4ms
+[info] GET /dashboard/nonode%40nohost/metrics/phoenix
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "phoenix", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] GET /dashboard/nonode%40nohost/metrics/vm
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "vm", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=0.8ms queue=3.8ms idle=354.8ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 6ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 231µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "JBoJGF9rCx80KhckOG8DLmMwfDI4JwA-pJdj-4IxFCEeN5Ua1Z9BiWAS", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.5ms idle=305.0ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[debug] QUERY OK source="posts" db=1.1ms idle=1472.2ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+[debug] QUERY OK source="posts" db=1.0ms idle=1674.3ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+[debug] QUERY OK source="posts" db=0.9ms idle=776.2ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+[debug] QUERY OK source="posts" db=1.2ms idle=743.2ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+[debug] QUERY OK source="posts" db=1.1ms idle=1969.7ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.0ms idle=414.1ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.1ms idle=904.1ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.3ms idle=1724.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.4ms idle=1925.9ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=0.3ms queue=1.3ms idle=1868.0ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 4ms
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=0.4ms queue=1.5ms idle=308.7ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 5ms
+4
+[debug] QUERY OK source="posts" db=0.9ms idle=1928.0ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[info] CONNECTED TO Phoenix.LiveView.Socket in 168µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "BBE_DlY7Il83Pj98RGZrKXtiWkQKMzsPOzJE7MgrhFeHqS1L54c7Dpdx", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.5ms idle=1898.0ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+4
+[debug] QUERY OK source="posts" db=1.0ms idle=1145.3ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+4
+[debug] QUERY OK source="posts" db=0.9ms queue=0.2ms idle=1720.6ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+4
+[debug] QUERY OK source="posts" db=0.9ms idle=1280.5ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+4
+[debug] QUERY OK source="posts" db=1.0ms idle=1874.3ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+4
+[debug] QUERY OK source="posts" db=0.9ms idle=996.7ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+4
+[debug] QUERY OK source="posts" db=1.0ms idle=990.1ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+4
+[debug] QUERY OK source="posts" db=1.1ms idle=1056.9ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+4
+[debug] QUERY OK source="posts" db=1.1ms queue=0.1ms idle=1614.2ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.5ms idle=1382.1ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.1ms idle=704.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.3ms idle=292.2ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.4ms idle=462.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.6ms idle=631.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.7ms idle=1814.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.0ms idle=686.1ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.2ms idle=702.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.4ms queue=0.1ms idle=1402.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.3ms idle=1595.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.1ms idle=1951.1ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.0ms idle=716.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.1ms idle=1099.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[info] GET /
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 3ms
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=1.2ms queue=1.3ms idle=814.3ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 8ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 182µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "ZWlYHDwKdyoKXxFwQhwGfyUeIiYkFhE4195nNU5Mx6C14FP0wtgVufPU", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.8ms idle=1406.0ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[debug] QUERY OK source="posts" db=1.2ms idle=1340.3ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.2ms idle=1259.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=0.9ms idle=1138.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.0ms idle=1193.8ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.6ms idle=1328.7ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.0ms idle=1171.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=0.5ms queue=0.1ms idle=1636.0ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 4ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 174µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "BDMYBjcYB18tIh9gDUVvLHkvchAUFisnOXmMVnBrrZET8p5I7yKcZUtP", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.9ms idle=1241.1ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] GET /dashboard
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 302 in 505µs
+[info] GET /dashboard/nonode%40nohost
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 6ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 190µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "eloQJxM0A3QxHjhCQn4WEwwDbB0iDG4e11elrBFYnfbvwKLvBUUnlO1i", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode%40nohost/metrics
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] GET /dashboard/nonode%40nohost/metrics/chirp
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "chirp", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[info] GET /dashboard/nonode%40nohost/metrics/vm
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "vm", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] GET /dashboard/nonode%40nohost/processes
+[debug] Processing with Phoenix.LiveView.Plug.processes/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] GET /dashboard/nonode%40nohost
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=0.6ms idle=1516.4ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 4ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 173µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "IjEzG3UlLAYnQVVSLCgnHFoXBDIePFdJMwCI2lGSo-lbieqzls2FWngp", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.6ms idle=1869.1ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[debug] QUERY OK source="posts" db=0.6ms idle=1099.2ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 WHERE (p0."id" = $1) [4]
+[debug] QUERY OK db=1.3ms idle=1117.0ms
+UPDATE "posts" SET "body" = $1, "updated_at" = $2 WHERE "id" = $3 ["foo bar fizz buzz\r\n\r\nほげげ\r\n", ~N[2020-04-23 16:04:23], 4]
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[debug] QUERY OK source="posts" db=0.9ms idle=1737.8ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[debug] QUERY OK source="posts" db=1.4ms idle=1531.3ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.1ms queue=0.1ms idle=1119.7ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.3ms idle=1924.5ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+4
+[debug] QUERY OK source="posts" db=1.1ms idle=1647.9ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+4
+[debug] QUERY OK source="posts" db=1.0ms idle=1313.7ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[info] CONNECTED TO Phoenix.LiveView.Socket in 172µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "eloQJxM0A3QxHjhCQn4WEwwDbB0iDG4e11elrBFYnfbvwKLvBUUnlO1i", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode%40nohost
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 179µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "ZWlYHDwKdyoKXxFwQhwGfyUeIiYkFhE4195nNU5Mx6C14FP0wtgVufPU", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.4ms idle=612.8ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] CONNECTED TO Phoenix.LiveView.Socket in 186µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "BBE_DlY7Il83Pj98RGZrKXtiWkQKMzsPOzJE7MgrhFeHqS1L54c7Dpdx", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=1.2ms idle=1151.3ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] GET /phoenix/live_reload/socket
+[debug] ** (Phoenix.Router.NoRouteError) no route found for GET /phoenix/live_reload/socket (ChirpWeb.Router)
+    (chirp 0.1.0) lib/phoenix/router.ex:402: ChirpWeb.Router.call/2
+    (chirp 0.1.0) lib/chirp_web/endpoint.ex:1: ChirpWeb.Endpoint.plug_builder_call/2
+    (chirp 0.1.0) lib/plug/debugger.ex:132: ChirpWeb.Endpoint."call (overridable 3)"/2
+    (chirp 0.1.0) lib/chirp_web/endpoint.ex:1: ChirpWeb.Endpoint.call/2
+    (phoenix 1.5.1) lib/phoenix/endpoint/cowboy2_handler.ex:64: Phoenix.Endpoint.Cowboy2Handler.init/4
+    (cowboy 2.7.0) /home/inoki/chirp/deps/cowboy/src/cowboy_handler.erl:41: :cowboy_handler.execute/2
+    (cowboy 2.7.0) /home/inoki/chirp/deps/cowboy/src/cowboy_stream_h.erl:320: :cowboy_stream_h.execute/3
+    (cowboy 2.7.0) /home/inoki/chirp/deps/cowboy/src/cowboy_stream_h.erl:302: :cowboy_stream_h.request_process/3
+    (stdlib 3.12.1) proc_lib.erl:249: :proc_lib.init_p_do_apply/3
+
+[info] GET /MAPI/API
+[info] GET /
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=0.6ms queue=1.3ms idle=743.6ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 7ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 165µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "BRULZiBYXwIOO0AeIC1xDEFcClM6J2IgITx1Mh9LJymZZ_995-Gkwq4N", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.7ms idle=40.6ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+4
+[debug] QUERY OK source="posts" db=1.3ms idle=969.6ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.1ms idle=1167.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=0.8ms idle=1898.3ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 WHERE (p0."id" = $1) [4]
+[info] GET /
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 5ms
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=0.5ms queue=1.3ms idle=1379.6ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 4ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 166µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "IhE0KjAMDyYIAw0nMRcZfjwSKCpjFTgYvAYXBSMAzj_fGMO1nxmZ2eyu", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.6ms idle=1172.4ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] GET /
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] GET /dashboard
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 302 in 498µs
+[info] GET /dashboard/nonode%40nohost
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 236µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "GmkCFDlnZTs6ahk-HxFrEFxpGiEdCxdcJZR9jJPqYGkGGI9rn8_WHoT7", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode%40nohost/ets
+[debug] Processing with Phoenix.LiveView.Plug.ets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 771µs
+[info] GET /dashboard/nonode%40nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 789µs
+[info] GET /dashboard/nonode%40nohost/processes
+[debug] Processing with Phoenix.LiveView.Plug.processes/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 763µs
+[info] GET /dashboard/nonode%40nohost/request_logger
+[debug] Processing with Phoenix.LiveView.Plug.request_logger/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 659µs
+[info] GET /dashboard/nonode%40nohost/request_logger/7ciJ
+[debug] Processing with Phoenix.LiveView.Plug.request_logger/2
+  Parameters: %{"node" => "nonode@nohost", "stream" => "7ciJ"}
+  Pipelines: [:browser]
+[info] Sent 200 in 670µs
+[info] GET /dashboard/nonode%40nohost/metrics
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 750µs
+[info] GET /dashboard/nonode%40nohost/metrics/chirp
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "chirp", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 878µs
+[info] GET /dashboard/nonode%40nohost
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 743µs
+[info] GET /
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 1000µs
+[info] CONNECTED TO Phoenix.LiveView.Socket in 172µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "YgthfjQaZDgCHUYDOxs-F0AIASMQJTIN281Sg7Qra04zcClurYDUEAqf", "vsn" => "2.0.0"}
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=0.5ms queue=0.2ms idle=203.5ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 2ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 170µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "FQEXeBYbeX8Zbh4wIW86OkQiNhU8IC0kE2GUE6L5zClIy7hXvssciDnO", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.6ms idle=1840.4ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[debug] QUERY OK source="posts" db=1.2ms idle=1077.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.1ms idle=1388.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=0.9ms idle=830.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.2ms idle=745.5ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.1ms idle=1523.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.0ms idle=1094.8ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+1
+[debug] QUERY OK source="posts" db=1.1ms idle=523.4ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+1
+[debug] QUERY OK source="posts" db=1.2ms idle=1307.1ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+1
+[debug] QUERY OK source="posts" db=1.3ms idle=1571.2ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+2
+[debug] QUERY OK source="posts" db=0.9ms idle=1615.9ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+2
+[debug] QUERY OK source="posts" db=1.2ms idle=1155.3ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+2
+[debug] QUERY OK source="posts" db=1.1ms idle=1451.9ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+2
+[debug] QUERY OK source="posts" db=0.9ms idle=1691.0ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+2
+[debug] QUERY OK source="posts" db=0.9ms idle=1748.4ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+2
+[debug] QUERY OK source="posts" db=0.9ms idle=1120.8ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+2
+[debug] QUERY OK source="posts" db=1.0ms idle=1011.1ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+2
+[debug] QUERY OK source="posts" db=0.8ms idle=1689.3ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+2
+[debug] QUERY OK source="posts" db=1.1ms idle=1139.2ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+2
+[debug] QUERY OK source="posts" db=1.0ms idle=1392.6ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+2
+[debug] QUERY OK source="posts" db=1.1ms idle=1640.3ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+2
+[debug] QUERY OK source="posts" db=0.9ms idle=1158.7ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+[info] GET /
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 987µs
+[info] GET /
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 915µs
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=0.7ms queue=0.2ms idle=1737.6ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 2ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 169µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "eDACDzE7DUcoHxkqGh0aAgNcNCEsAlw66iABCsarNRkAB0otr1dHGDob", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.8ms idle=1680.9ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[debug] QUERY OK source="posts" db=1.5ms idle=1594.7ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.2ms idle=1336.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.4ms idle=1741.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=0.9ms idle=1630.3ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.1ms idle=1539.1ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+4
+[debug] QUERY OK source="posts" db=1.2ms idle=1554.0ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+4
+[debug] QUERY OK source="posts" db=1.3ms idle=756.5ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=0.9ms idle=1844.4ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 WHERE (p0."id" = $1) [4]
+[debug] QUERY OK db=1.0ms queue=0.6ms idle=1879.3ms
+UPDATE "posts" SET "body" = $1, "updated_at" = $2 WHERE "id" = $3 ["foo bar fizz buzz\r\n\r\nほげげ　すごいですね\r\n", ~N[2020-04-24 09:35:49], 4]
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 731µs
+[debug] QUERY OK source="posts" db=0.4ms idle=448.6ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[debug] QUERY OK source="posts" db=1.0ms idle=7.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.2ms idle=209.3ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.1ms idle=378.3ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.4ms idle=861.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.5ms idle=1818.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+[debug] QUERY OK source="posts" db=1.3ms idle=1997.8ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 2]
+[debug] QUERY OK source="posts" db=1.5ms idle=1178.1ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.1ms idle=1369.2ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=0.9ms idle=1909.9ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.1ms idle=1935.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=2.5ms idle=1148.3ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.2ms idle=1339.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.0ms idle=1778.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=0.9ms idle=1947.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[info] GET /
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[debug] QUERY OK source="posts" db=1.1ms idle=1678.9ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.0ms idle=1387.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=0.9ms idle=1871.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.0ms idle=1051.1ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.0ms idle=1220.8ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.0ms queue=0.1ms idle=1468.3ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=0.8ms idle=1661.2ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.1ms idle=1053.9ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.0ms idle=1199.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.0ms idle=1076.5ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=0.9ms idle=1290.8ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=0.8ms idle=1448.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.0ms idle=1908.1ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=0.8ms idle=1078.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=0.9ms idle=1596.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=0.9ms idle=1776.1ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=0.9ms idle=1575.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[debug] QUERY OK source="posts" db=1.1ms idle=1788.5ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 3]
+[info] GET /
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 250µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "B0cAfQxfQws-fi9tWBEXF15xAjAlD0cJajeDBrzlkHM8ahxy9GLVrZ48", "vsn" => "2.0.0"}
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=0.4ms queue=0.1ms idle=1726.0ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 2ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 235µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "NhoiSQhdSzUEXRgjTlRfNyZ6ND8NLDl8P7GpFprRQkzvw-0YALzYZyJM", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.6ms idle=1173.3ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] GET /
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[debug] QUERY OK source="posts" db=1.6ms idle=1586.2ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=0.9ms idle=850.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.0ms idle=876.6ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.0ms idle=172.7ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.2ms idle=488.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+4
+[debug] QUERY OK source="posts" db=1.3ms idle=1462.2ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+4
+[debug] QUERY OK source="posts" db=1.0ms idle=1372.2ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.2ms idle=714.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=0.9ms idle=323.9ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=0.9ms idle=1098.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.0ms idle=1639.2ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.2ms idle=43.5ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.1ms idle=1440.2ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.1ms idle=1092.8ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.0ms idle=1476.8ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=1.0ms idle=1669.5ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+[debug] QUERY OK source="posts" db=0.9ms idle=1064.4ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 4]
+Compiling 1 file (.ex)
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[debug] QUERY OK source="posts" db=0.4ms queue=1.5ms idle=938.6ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] Sent 200 in 5ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 281µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "NCwBRgEQWishdC9GDS5gNXo_T2N9NiE5N_P7PR1Zh2p0KvWc2MwQ7wKq", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.5ms idle=243.9ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+1
+[debug] QUERY OK source="posts" db=1.3ms idle=44.7ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+1
+[debug] QUERY OK source="posts" db=1.1ms idle=592.6ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+1
+[debug] QUERY OK source="posts" db=1.2ms idle=975.0ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+1
+[debug] QUERY OK source="posts" db=1.2ms idle=1190.0ms
+UPDATE "posts" AS p0 SET "reposts_count" = p0."reposts_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=0.9ms idle=1078.2ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.1ms idle=1673.0ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=1.1ms idle=1864.2ms
+UPDATE "posts" AS p0 SET "likes_count" = p0."likes_count" + $1 WHERE (p0."id" = $2) RETURNING p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" [1, 1]
+[debug] QUERY OK source="posts" db=0.9ms idle=1885.6ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 WHERE (p0."id" = $1) [4]
+[debug] QUERY OK source="posts" db=0.9ms idle=1531.2ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 WHERE (p0."id" = $1) [4]
+[debug] QUERY OK source="posts" db=0.9ms idle=1726.8ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 WHERE (p0."id" = $1) [4]
+[debug] QUERY OK db=1.0ms queue=0.4ms idle=1027.0ms
+UPDATE "posts" SET "body" = $1, "updated_at" = $2 WHERE "id" = $3 ["fukuoka.ex#37 もくもく会", ~N[2020-04-24 11:31:45], 4]
+[info] GET /posts
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[debug] QUERY OK source="posts" db=0.5ms idle=1214.6ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
+[info] CONNECTED TO Phoenix.LiveView.Socket in 277µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "NCwBRgEQWishdC9GDS5gNXo_T2N9NiE5N_P7PR1Zh2p0KvWc2MwQ7wKq", "vsn" => "2.0.0"}
+[debug] QUERY OK source="posts" db=0.6ms idle=1716.7ms
+SELECT p0."id", p0."body", p0."likes_count", p0."reposts_count", p0."username", p0."inserted_at", p0."updated_at" FROM "posts" AS p0 ORDER BY p0."id" DESC []
